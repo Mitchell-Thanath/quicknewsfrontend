@@ -1,0 +1,100 @@
+.homeContainer {
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 130px 1fr;
+    border: 2px solid black;
+}
+
+.homeTitle {
+    border: 2px solid black;
+    font-size: 48px;
+    grid-column: 1 / -1;
+    background-color: #a7d6df;
+}
+
+/* Home */
+.homeContent {
+    border: 2px solid black;
+    background-color: white;
+}
+
+/* Style 9
+   ----------------------------- */
+   .websiteTitle h1 {
+    text-align:center; font-size:50px; text-transform:uppercase; color:#222; letter-spacing:1px;
+    font-family:"Playfair Display", serif; font-weight:400;
+  }
+  .websiteTitle h1 span {
+    margin-top: 5px;
+      font-size:15px; color:#444; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+      text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
+  
+      display: grid;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-template-rows: 27px 0;
+      grid-gap: 20px;
+      align-items: center;
+  }
+  
+  .websiteTitle h1 span:after,.websiteTitle h1 span:before {
+      content: " ";
+      display: block;
+      border-bottom: 1px solid #0602fc;
+      border-top: 2px solid #0602fc;
+      height: 5px;
+    background-color:hsl(120, 100%, 83%);
+  }
+  
+
+.articleTitle{
+    font-size: 40px;
+}
+
+.newsImage{
+    width: 40vw; 
+    height: auto; 
+    object-fit: cover;
+    border-radius: 8px; 
+}
+
+/* Archive List */
+.archiveListContainer {
+    border: 2px solid black;
+    background-color: lightcyan;
+}
+
+.archiveTitle{
+    font-size: 24px;
+    border-bottom: 2px solid black;
+}
+
+.articleBlock {
+    grid-template-rows: auto auto;
+}
+.articleBlock:hover {
+    color: rgb(0, 119, 255);
+}
+
+.articleSelected{
+    color: rgb(0, 119, 255);
+}
+
+/* MostPopular */
+.mostPopularContainer {
+    border: 2px solid black;
+    background-color: lightcyan;
+}
+
+.popularTitle{
+    font-size: 24px;
+    border-bottom: 2px solid black;
+}
+
+.popularImage{
+    width: 19vw;
+    height: auto;
+}
+
+.mostPopularBlock{
+    border-bottom: 2px solid gray;
+}
+

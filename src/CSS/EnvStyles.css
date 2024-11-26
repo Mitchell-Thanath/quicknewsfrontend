@@ -1,0 +1,109 @@
+.g {
+    display: grid;
+}
+
+.gC1{
+    grid-column: 1;
+}
+
+.gC2{
+    grid-column: 2;
+}
+
+.gC3{
+    grid-column: 3;
+}
+
+.gC4{
+    grid-column: 4;
+}
+
+.gC5{
+    grid-column: 5;
+}
+
+.gC6{
+    grid-column: 6;
+}
+
+.gC7{
+    grid-column: 7;
+}
+
+.gR1{
+    grid-row: 1;
+}
+
+.gR2{
+    grid-row: 2;
+}
+
+.gR3{
+    grid-row: 3;
+}
+
+.gR4{
+    grid-row: 4;
+}
+
+.gR5{
+    grid-row: 5;
+}
+
+.gR6{
+    grid-row: 6;
+}
+
+.gR7{
+    grid-row: 7;
+}
+
+.cC{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+
+.cR{
+    display: flex;
+    justify-content: right; 
+    align-items: right; 
+    text-align: right;
+}
+
+.cL{
+    display: flex;
+    justify-content: left; 
+    align-items: left; 
+    text-align: left;
+}
+
+.dG{
+    gap: 8px;
+}
+
+.dP{
+    padding: 8px;
+}
+
+.p{
+    cursor: pointer;
+}
+
+.f{
+    width: 100%;
+    height: 100%;
+}
+
+.bold{
+    font-weight: 500;
+}
+
+.oA{
+    overflow: auto;
+}
+
+.oH{
+    overflow: hidden;
+}
